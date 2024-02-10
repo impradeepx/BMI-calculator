@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>ADDITION CALCULATOR</h1>
+    <input type="number" id="x">
+    <input type="number" id="y">
+    <button type="submit" onclick="add()" >submit</button>
+
+
+
+
+<p id="result"></p>
+<script>
+    function add()
+    {
+    const x= document.getElementById("x").value;
+    const y= document.getElementById("y").value;
+    const sum=parseInt(x)+parseInt(y);
+     document.getElementById("result").innerHTML=sum;
+}
+
+</script>
+
+</body>
+</html>
