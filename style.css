@@ -1,0 +1,12 @@
+body {background-color: aquamarine;m}
+button {background-color: black;
+     padding:8px;
+color: azure;border: 1px solid rgb(73, 73, 218); border-radius: 5px ;}
+h1 {background-color: rgb(235, 159, 196);
+    text-align: center;}
+#box {text-align: center;
+border: 2px solid black;}
+#result{border: 2px solid black;
+    width: 100%px;height: 30px;
+    background-color: rgb(238, 146, 146)
+;}
